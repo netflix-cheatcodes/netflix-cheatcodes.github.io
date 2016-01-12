@@ -1,11 +1,11 @@
 {
   "name": "fadbus.github.io",
   "version": "0.1.0",
-  "homepage": "https://github.com/fadbus/fadbus.github.io",
+  "homepage": "https://github.com/netflix-cheatcodes/netflix-cheatcodes.github.io",
   "authors": [
     "Derek Nutile <dereknutile@gmail.com>"
   ],
-  "description": "FontAwesome Database Filter",
+  "description": "Netflix Cheatcodes",
   "license": "MIT",
   "private": true,
   "ignore": [
