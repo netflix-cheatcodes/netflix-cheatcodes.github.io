@@ -22,7 +22,7 @@ fontAwesomeFontBaseUrl: "http://fortawesome.github.io/Font-Awesome/icon/"
 url: "http://netflix-cheatcodes.github.io/"
 
 # site favicon
-favicon: "/assets/ico/favicon.png"
+favicon: "assets/ico/favicon.png"
 
 # usernames
 facebook-username: "dereknutile"
