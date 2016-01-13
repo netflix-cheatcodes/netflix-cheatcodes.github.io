@@ -29,8 +29,8 @@ $sansSerifFont: 'Source Sans Pro', Helvetica, Arial, sans-serif;
 /*variables -- sizes*/
 
 /*variables -- colors*/
-$coreBackgroundColor: #7baaf7;
-$coreHyperlink: #00a;
+$coreBackgroundColor: #1A1A1A;
+$coreHyperlink: #e50914;
 $subtleGray: #eee;
 $light: #efefef;
 $activeCallout: #a29e5e;
@@ -147,13 +147,6 @@ a:visited { color: $coreHyperlink; }
   background-color: darken( $coreBackgroundColor, 20% );
 }
 
-.navbar-subnavbar {
-  height: 100px;
-  padding-top: 48px;
-  border-color: transparent;
-  border-radius: 0px;
-}
-
 @media (min-width: 768px){
   .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
       margin-left: 0px;
@@ -191,6 +184,14 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
   -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
   transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.navbar-subnavbar {
+  height: 100px;
+  padding-top: 48px;
+  border-color: transparent;
+  border-radius: 0px;
+  background-color: lighten( $coreBackgroundColor, 12% );
 }
 
 .dropdown-menu {
@@ -347,15 +348,15 @@ a.brand:hover {
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
 .card {
-  background-color: #fff;
-  color: #666;
+  background-color: $coreHyperlink;
+  color: #fff;
   margin-bottom: 1em;
-  border: 0px solid #fff;
+  border: 0px solid $coreHyperlink;
   opacity: 0.90;
 }
 
 .card .row {
-  padding: 12px;
+  padding: 4px 2px;
 }
 
 .card .icon {
@@ -375,13 +376,14 @@ a.brand:hover {
 }
 
 a.link-div {
-  border: 1px solid #eee;
+  border: 1px solid $coreHyperlink;
   display: block;
+  color: #fff;
 }
 
 a.link-div:hover {
-  border: 1px solid #fff;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.19),0 6px 6px rgba(0,0,0,0.23);
+  border: 1px solid $coreHyperlink;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.19),0 6px 6px rgba(0,0,0,0.23);
   -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
   -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
   transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
@@ -450,7 +452,7 @@ a.link-div:hover {
 }
 
 .landing-page {
-  background-color: lighten( $coreBackgroundColor, 18% );
+  background-color: lighten( $coreBackgroundColor, 32% );
   padding-top: 24px;
   padding-bottom: 24px;
   box-shadow: 0 6px 15px rgba(0,0,0,0.19),0 6px 6px rgba(0,0,0,0.23);
