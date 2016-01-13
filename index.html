@@ -1,40 +1,37 @@
 ---
 layout: default
 title: "Font Filter"
-navbar: "fonts"
+navbar: "codes"
 searchable: "true"
 ---
 
-<section id="font-result-list" class="landing-page palette">
+<section id="filter-target" class="landing-page palette">
 
   <div class="container">
-    <div class="row" id="font-cards-row-wrap">
+    <div class="row" id="code-cards-row-wrap">
 
-    {% assign fonts = site.data.fontawesome.icons | sort: 'name' %}
-    {% for font in fonts %}
-      <div class="col-md-6 card-column">
+    {% assign codes = site.data.cheatcodes.cheatcodes | sort: 'genre' %}
+    {% for code in codes %}
+      <div class="col-md-6 cheat-code">
         <div class="card">
-          <a href="#" data-font-id="{{ font.id }}" data-font-name="{{ font.name }}" data-font-meta="{{ font.meta }}" data-font-categories="{{ font.categories}}" data-font-unicode="{{ font.unicode }}" data-font-created="{{ font.created }}" class="link-div">
+          <a href="#" data-code-genre="{{ code.genre }}" data-code-id="{{ code.id }}" class="link-div">
           <div class="row">
-            <div class="col-xs-2">
-              <div class="icon">
-                <i class="fa {{ site.data.fontawesome.prefix }}{{ font.id }}"></i>
-              </div>
-            </div>
-            <div class="col-xs-10">
+            <div class="col-xs-9">
               <div class="icon-name">
-                {{ font.name }}
+                {{ code.genre }}
               </div>
             </div>
-            <span class="col-md-6 searchable hidden">{{ font.meta }} | {{ font.id }} | {{ font.unicode }} | {{ font.created }} | {{ font.categories}}</span>
+            <div class="col-xs-3">
+              <div class="icon-name">
+                {{ code.id }}
+              </div>
+            </div>
           </div>
           <!-- /.row -->
           </a>
         </div><!-- /.card -->
       </div><!-- /.card-column -->
     {% endfor %}
-
-    {% include blocks/font-modal.html %}
 
   </div><!-- /.row -->
   </div><!-- /.container -->

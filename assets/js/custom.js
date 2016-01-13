@@ -5,8 +5,12 @@ $(document).ready(function(){
     animation: true,
   });
 
+  function clearDisplay () {
+    // $('.something').empty().hide();
+  }
+
   // find filter
-  $('input#filter-box').quicksearch('.filter-target', {
+  $('input#filter-box').quicksearch('.cheat-code', {
     'delay': 500,
     'bind': 'keyup keydown',
     'onBefore': function () {

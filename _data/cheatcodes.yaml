@@ -1,0 +1,422 @@
+cheatcodes:
+
+    - genre: "Action & Adventure"
+      id: 1365
+    - genre: "Action Comedies"
+      id: 43040
+    - genre: "Action Sci-Fi & Fantasy"
+      id: 1568
+    - genre: "Action Thrillers"
+      id: 43048
+    - genre: "Adult Animation"
+      id: 11881
+    - genre: "Adventures"
+      id: 7442
+    - genre: "African Movies"
+      id: 3761
+    - genre: "Alien Sci-Fi"
+      id: 3327
+    - genre: "Animal Tales"
+      id: 5507
+    - genre: "Anime"
+      id: 7424
+    - genre: "Anime Action"
+      id: 2653
+    - genre: "Anime Comedies"
+      id: 9302
+    - genre: "Anime Dramas"
+      id: 452
+    - genre: "Anime Fantasy"
+      id: 11146
+    - genre: "Anime Features"
+      id: 3063
+    - genre: "Anime Horror"
+      id: 10695
+    - genre: "Anime Sci-Fi"
+      id: 2729
+    - genre: "Anime Series"
+      id: 6721
+    - genre: "Art House Movies"
+      id: 29764
+    - genre: "Asian Action Movies"
+      id: 77232
+    - genre: "Australian Movies"
+      id: 5230
+    - genre: "B-Horror Movies"
+      id: 8195
+    - genre: "Baseball Movies"
+      id: 12339
+    - genre: "Basketball Movies"
+      id: 12762
+    - genre: "Belgian Movies"
+      id: 262
+    - genre: "Biographical Documentaries"
+      id: 3652
+    - genre: "Biographical Dramas"
+      id: 3179
+    - genre: "Boxing Movies"
+      id: 12443
+    - genre: "British Movies"
+      id: 10757
+    - genre: "British TV Shows"
+      id: 52117
+    - genre: "Campy Movies"
+      id: 1252
+    - genre: "Children & Family Movies"
+      id: 783
+    - genre: "Chinese Movies"
+      id: 3960
+    - genre: "Classic Action & Adventure"
+      id: 46576
+    - genre: "Classic Comedies"
+      id: 31694
+    - genre: "Classic Dramas"
+      id: 29809
+    - genre: "Classic Foreign Movies"
+      id: 32473
+    - genre: "Classic Movies"
+      id: 31574
+    - genre: "Classic Musicals"
+      id: 32392
+    - genre: "Classic Romantic Movies"
+      id: 31273
+    - genre: "Classic Sci-Fi & Fantasy"
+      id: 47147
+    - genre: "Classic Thrillers"
+      id: 46588
+    - genre: "Classic TV Shows"
+      id: 46553
+    - genre: "Classic War Movies"
+      id: 48744
+    - genre: "Classic Westerns"
+      id: 47465
+    - genre: "Comedies"
+      id: 6548
+    - genre: "Comic Book and Superhero Movies"
+      id: 10118
+    - genre: "Country & Western/Folk"
+      id: 1105
+    - genre: "Courtroom Dramas"
+      id: 528582748
+    - genre: "Creature Features"
+      id: 6895
+    - genre: "Crime Action & Adventure"
+      id: 9584
+    - genre: "Crime Documentaries"
+      id: 9875
+    - genre: "Crime Dramas"
+      id: 6889
+    - genre: "Crime Thrillers"
+      id: 10499
+    - genre: "Crime TV Shows"
+      id: 26146
+    - genre: "Cult Comedies"
+      id: 9434
+    - genre: "Cult Horror Movies"
+      id: 10944
+    - genre: "Cult Movies"
+      id: 7627
+    - genre: "Cult Sci-Fi & Fantasy"
+      id: 4734
+    - genre: "Cult TV Shows"
+      id: 74652
+    - genre: "Dark Comedies"
+      id: 869
+    - genre: "Deep Sea Horror Movies"
+      id: 45028
+    - genre: "Disney"
+      id: 67673
+    - genre: "Disney Musicals"
+      id: 59433
+    - genre: "Documentaries"
+      id: 6839
+    - genre: "Dramas"
+      id: 5763
+    - genre: "Dramas based on Books"
+      id: 4961
+    - genre: "Dramas based on real life"
+      id: 3653
+    - genre: "Dutch Movies"
+      id: 10606
+    - genre: "Eastern European Movies"
+      id: 5254
+    - genre: "Education for Kids"
+      id: 10659
+    - genre: "Epics"
+      id: 52858
+    - genre: "Experimental Movies"
+      id: 11079
+    - genre: "Faith & Spirituality"
+      id: 26835
+    - genre: "Faith & Spirituality Movies"
+      id: 52804
+    - genre: "Family Features"
+      id: 51056
+    - genre: "Fantasy Movies"
+      id: 9744
+    - genre: "Film Noir"
+      id: 7687
+    - genre: "Food & Travel TV"
+      id: 72436
+    - genre: "Football Movies"
+      id: 12803
+    - genre: "Foreign Action & Adventure"
+      id: 11828
+    - genre: "Foreign Comedies"
+      id: 4426
+    - genre: "Foreign Documentaries"
+      id: 5161
+    - genre: "Foreign Dramas"
+      id: 2150
+    - genre: "Foreign Gay & Lesbian Movies"
+      id: 8243
+    - genre: "Foreign Horror Movies"
+      id: 8654
+    - genre: "Foreign Movies"
+      id: 7462
+    - genre: "Foreign Sci-Fi & Fantasy"
+      id: 6485
+    - genre: "Foreign Thrillers"
+      id: 10306
+    - genre: "French Movies"
+      id: 58807
+    - genre: "Gangster Movies"
+      id: 31851
+    - genre: "Gay & Lesbian Dramas"
+      id: 500
+    - genre: "German Movies"
+      id: 58886
+    - genre: "Greek Movies"
+      id: 61115
+    - genre: "Historical Documentaries"
+      id: 5349
+    - genre: "Horror Comedy"
+      id: 89585
+    - genre: "Horror Movies"
+      id: 8711
+    - genre: "Independent Action & Adventure"
+      id: 11804
+    - genre: "Independent Comedies"
+      id: 4195
+    - genre: "Independent Dramas"
+      id: 384
+    - genre: "Independent Movies"
+      id: 7077
+    - genre: "Independent Thrillers"
+      id: 3269
+    - genre: "Indian Movies"
+      id: 10463
+    - genre: "Irish Movies"
+      id: 58750
+    - genre: "Italian Movies"
+      id: 8221
+    - genre: "Japanese Movies"
+      id: 10398
+    - genre: "Jazz & Easy Listening"
+      id: 10271
+    - genre: "Kids Faith & Spirituality"
+      id: 751423
+    - genre: "Kids Music"
+      id: 52843
+    - genre: "Kids’ TV"
+      id: 27346
+    - genre: "Korean Movies"
+      id: 5685
+    - genre: "Korean TV Shows"
+      id: 67879
+    - genre: "Late Night Comedies"
+      id: 1402
+    - genre: "Latin American Movies"
+      id: 1613
+    - genre: "Latin Music"
+      id: 10741
+    - genre: "Martial Arts Movies"
+      id: 8985
+    - genre: "Martial Arts, Boxing & Wrestling"
+      id: 6695
+    - genre: "Middle Eastern Movies"
+      id: 5875
+    - genre: "Military Action & Adventure"
+      id: 2125
+    - genre: "Military Documentaries"
+      id: 4006
+    - genre: "Military Dramas"
+      id: 11
+    - genre: "Military TV Shows"
+      id: 25804
+    - genre: "Miniseries"
+      id: 4814
+    - genre: "Mockumentaries"
+      id: 26
+    - genre: "Monster Movies"
+      id: 947
+    - genre: "Movies based on children’s books"
+      id: 10056
+    - genre: "Movies for ages 0 to 2"
+      id: 6796
+    - genre: "Movies for ages 2 to 4"
+      id: 6218
+    - genre: "Movies for ages 5 to 7"
+      id: 5455
+    - genre: "Movies for ages 8 to 10"
+      id: 561
+    - genre: "Movies for ages 11 to 12"
+      id: 6962
+    - genre: "Music & Concert Documentaries"
+      id: 90361
+    - genre: "Music"
+      id: 1701
+    - genre: "Musicals"
+      id: 13335
+    - genre: "Mysteries"
+      id: 9994
+    - genre: "New Zealand Movies"
+      id: 63782
+    - genre: "Period Pieces"
+      id: 12123
+    - genre: "Political Comedies"
+      id: 2700
+    - genre: "Political Documentaries"
+      id: 7018
+    - genre: "Political Dramas"
+      id: 6616
+    - genre: "Political Thrillers"
+      id: 10504
+    - genre: "Psychological Thrillers"
+      id: 5505
+    - genre: "Quirky Romance"
+      id: 36103
+    - genre: "Reality TV"
+      id: 9833
+    - genre: "Religious Documentaries"
+      id: 10005
+    - genre: "Rock & Pop Concerts"
+      id: 3278
+    - genre: "Romantic Comedies"
+      id: 5475
+    - genre: "Romantic Dramas"
+      id: 1255
+    - genre: "Romantic Favorites"
+      id: 502675
+    - genre: "Romantic Foreign Movies"
+      id: 7153
+    - genre: "Romantic Independent Movies"
+      id: 9916
+    - genre: "Romantic Movies"
+      id: 8883
+    - genre: "Russian"
+      id: 11567
+    - genre: "Satanic Stories"
+      id: 6998
+    - genre: "Satires"
+      id: 4922
+    - genre: "Scandinavian Movies"
+      id: 9292
+    - genre: "Sci-Fi & Fantasy"
+      id: 1492
+    - genre: "Sci-Fi Adventure"
+      id: 6926
+    - genre: "Sci-Fi Dramas"
+      id: 3916
+    - genre: "Sci-Fi Horror Movies"
+      id: 1694
+    - genre: "Sci-Fi Thrillers"
+      id: 11014
+    - genre: "Science & Nature Documentaries"
+      id: 2595
+    - genre: "Science & Nature TV"
+      id: 52780
+    - genre: "Screwball Comedies"
+      id: 9702
+    - genre: "Showbiz Dramas"
+      id: 5012
+    - genre: "Showbiz Musicals"
+      id: 13573
+    - genre: "Silent Movies"
+      id: 53310
+    - genre: "Slapstick Comedies"
+      id: 10256
+    - genre: "Slasher and Serial Killer Movies"
+      id: 8646
+    - genre: "Soccer Movies"
+      id: 12549
+    - genre: "Social & Cultural Documentaries"
+      id: 3675
+    - genre: "Social Issue Dramas"
+      id: 3947
+    - genre: "Southeast Asian Movies"
+      id: 9196
+    - genre: "Spanish Movies"
+      id: 58741
+    - genre: "Spiritual Documentaries"
+      id: 2760
+    - genre: "Sports & Fitness"
+      id: 9327
+    - genre: "Sports Comedies"
+      id: 5286
+    - genre: "Sports Documentaries"
+      id: 180
+    - genre: "Sports Dramas"
+      id: 7243
+    - genre: "Sports Movies"
+      id: 4370
+    - genre: "Spy Action & Adventure"
+      id: 10702
+    - genre: "Spy Thrillers"
+      id: 9147
+    - genre: "Stage Musicals"
+      id: 55774
+    - genre: "Stand-up Comedy"
+      id: 11559
+    - genre: "Steamy Romantic Movies"
+      id: 35800
+    - genre: "Steamy Thrillers"
+      id: 972
+    - genre: "Supernatural Horror Movies"
+      id: 42023
+    - genre: "Supernatural Thrillers"
+      id: 11140
+    - genre: "Tearjerkers"
+      id: 6384
+    - genre: "Teen Comedies"
+      id: 3519
+    - genre: "Teen Dramas"
+      id: 9299
+    - genre: "Teen Screams"
+      id: 52147
+    - genre: "Teen TV Shows"
+      id: 60951
+    - genre: "Thrillers"
+      id: 8933
+    - genre: "Travel & Adventure Documentaries"
+      id: 1159
+    - genre: "TV Action & Adventure"
+      id: 10673
+    - genre: "TV Cartoons"
+      id: 11177
+    - genre: "TV Comedies"
+      id: 10375
+    - genre: "TV Documentaries"
+      id: 10105
+    - genre: "TV Dramas"
+      id: 11714
+    - genre: "TV Horror"
+      id: 83059
+    - genre: "TV Mysteries"
+      id: 4366
+    - genre: "TV Sci-Fi & Fantasy"
+      id: 1372
+    - genre: "TV Shows"
+      id: 83
+    - genre: "Urban & Dance Concerts"
+      id: 9472
+    - genre: "Vampire Horror Movies"
+      id: 75804
+    - genre: "Werewolf Horror Movies"
+      id: 75930
+    - genre: "Westerns"
+      id: 7700
+    - genre: "World Music Concerts"
+      id: 2856
+    - genre: "Zombie Horror Movies"
+      id: 75405
