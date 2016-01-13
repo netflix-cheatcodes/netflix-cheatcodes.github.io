@@ -1,23 +1,42 @@
 ---
 layout: default
+title: "Font Filter"
+navbar: "fonts"
+searchable: "true"
 ---
 
-<div class="home">
+<section id="font-result-list" class="landing-page palette">
 
-  <h1 class="page-heading">Posts</h1>
+  <div class="container">
+    <div class="row" id="font-cards-row-wrap">
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
+    {% assign fonts = site.data.fontawesome.icons | sort: 'name' %}
+    {% for font in fonts %}
+      <div class="col-md-6 card-column">
+        <div class="card">
+          <a href="#" data-font-id="{{ font.id }}" data-font-name="{{ font.name }}" data-font-meta="{{ font.meta }}" data-font-categories="{{ font.categories}}" data-font-unicode="{{ font.unicode }}" data-font-created="{{ font.created }}" class="link-div">
+          <div class="row">
+            <div class="col-xs-2">
+              <div class="icon">
+                <i class="fa {{ site.data.fontawesome.prefix }}{{ font.id }}"></i>
+              </div>
+            </div>
+            <div class="col-xs-10">
+              <div class="icon-name">
+                {{ font.name }}
+              </div>
+            </div>
+            <span class="col-md-6 searchable hidden">{{ font.meta }} | {{ font.id }} | {{ font.unicode }} | {{ font.created }} | {{ font.categories}}</span>
+          </div>
+          <!-- /.row -->
+          </a>
+        </div><!-- /.card -->
+      </div><!-- /.card-column -->
     {% endfor %}
-  </ul>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+    {% include blocks/font-modal.html %}
 
-</div>
+  </div><!-- /.row -->
+  </div><!-- /.container -->
+
+</section><!-- /#landing-page -->

@@ -1,0 +1,26 @@
+
+{% include framing/ie.html %}
+
+{% if page.header %}
+<header>
+
+<section id="page-heading" class="palette">
+<div id="heading-banner">
+
+  <div class="container">
+  <div class="row">
+
+  {% if page.subheader %}
+  <h1 class="page-header">{{ page.header }} <small>{{ page.subheader }}</small></h1>
+  {% else %}
+  <h1 class="page-header">{{ page.header }}</h1>
+  {% endif %}
+
+  </div><!-- /.row -->
+  </div><!-- /.container -->
+
+</div><!-- /#heading-banner -->
+</section><!-- /#page-heading -->
+
+</header>
+{% endif %}

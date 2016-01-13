@@ -1,21 +1,37 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
+# App title & short title
+title: "Netflix Cheatcodes"
+shortTitle: "NFCC"
 
-# Site settings
-title: Your awesome title
-email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+# main contact email for the app
+email: "hi@dereknutile.com"
 
-# Build settings
+# brief description for the site
+description: "Filterable database of Netflix cheat codes."
+
+# one line short description for the site
+tagline: ""
+
+# leave empty unless you need to store the mockup in a subfolder
+# don't use a trailing slash
+baseurl: ""
+
+# library baseurls
+fontAwesomeFontBaseUrl: "http://fortawesome.github.io/Font-Awesome/icon/"
+
+# replace with the domain of the mockup
+url: "http://netflix-cheatcodes.github.io/"
+
+# site favicon
+favicon: "/assets/ico/favicon.png"
+
+# usernames
+facebook-username: "dereknutile"
+twitter-username: "dereknutile"
+gootgle-plus-username: "+dereknutile"
+
+# analytic settings
+# google-analytics: "UA-CODE-GOES-HERE"
+
+# Jekyll build settings
 markdown: kramdown
+permalink: pretty

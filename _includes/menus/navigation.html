@@ -1,0 +1,38 @@
+
+<!-- main navigation -->
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-xs-12">
+        {% if page.searchable == 'true' %}
+          <a href="/" title="{{ site.title }} | {{ site.tagline }}" class="hidden-xs hidden-sm hidden-md brand">{{ site.title }}</a>
+          <a href="/" title="{{ site.title }} | {{ site.tagline }}" class="hidden-lg brand">{{ site.shortTitle }}</a>
+
+          <input type="search" class="form-control form-top-pad" id="font-filter-box" placeholder="Type to filter using descriptors like 'drink' or 'email' ...">
+        {% else %}
+          <a href="/" title="{{ site.title }} | {{ site.tagline }}" class="brand">{{ site.title }}</a>
+        {% endif %}
+      </div>
+
+    </div><!-- .row -->
+  </div><!-- .container -->
+</div><!-- end main navigation -->
+
+
+<div class="navbar navbar-default navbar-subnavbar">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+
+        <ul class="nav navbar-nav">
+          <li{% if page.navbar == 'fonts' %} class="active"{% endif %}><a href="/" title="{{ site.title }} | {{ site.tagline }}"><i class="fa fa-search"></i><span class="hidden-xs hidden-sm">&nbsp;Find Fonts</a></li>
+          <li{% if page.navbar == 'about' %} class="active"{% endif %} title="About the {{ site.title }}"><a href="/about"><i class="fa fa-info-circle"></i><span class="hidden-xs hidden-sm">&nbsp;About</a></li>
+          <li><a href="https://github.com/fadbus/fadbus.github.io" target="_blank"><i class="fa fa-github"></i><span class="hidden-xs hidden-sm" title="Look under the hood at GitHub">&nbsp;Fork Me</a></li>
+          <li><a href="http://fortawesome.github.io/Font-Awesome/" title="Jump to the FontAwesome Website" target="_blank"><i class="fa fa-flag"></i><span class="hidden-xs hidden-sm">&nbsp;FontAwesome Website</a></li>
+          <li></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
