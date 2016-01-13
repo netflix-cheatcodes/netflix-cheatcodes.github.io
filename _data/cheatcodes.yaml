@@ -8,7 +8,7 @@ cheatcodes:
       meta: "comedy humors funny"
     - genre: "Action Sci-Fi & Fantasy"
       id: 1568
-      meta: ""
+      meta: "sciences fictions"
     - genre: "Action Thrillers"
       id: 43048
       meta: ""
@@ -23,37 +23,37 @@ cheatcodes:
       meta: ""
     - genre: "Alien Sci-Fi"
       id: 3327
-      meta: ""
+      meta: "sciences fictions"
     - genre: "Animal Tales"
       id: 5507
       meta: ""
     - genre: "Anime"
       id: 7424
-      meta: ""
+      meta: "drawn animations cartoons"
     - genre: "Anime Action"
       id: 2653
-      meta: ""
+      meta: "drawn animations cartoons"
     - genre: "Anime Comedies"
       id: 9302
-      meta: "comedy humors funny"
+      meta: "drawn animations cartoons comedy humors funny"
     - genre: "Anime Dramas"
       id: 452
-      meta: ""
+      meta: "drawn animations cartoons"
     - genre: "Anime Fantasy"
       id: 11146
-      meta: ""
+      meta: "drawn animations cartoons"
     - genre: "Anime Features"
       id: 3063
-      meta: ""
+      meta: "drawn animations cartoons"
     - genre: "Anime Horror"
       id: 10695
-      meta: ""
+      meta: "drawn animations cartoons"
     - genre: "Anime Sci-Fi"
       id: 2729
-      meta: ""
+      meta: "drawn animations cartoons sciences fictions"
     - genre: "Anime Series"
       id: 6721
-      meta: ""
+      meta: "drawn animations cartoons"
     - genre: "Art House Movies"
       id: 29764
       meta: ""
@@ -68,10 +68,10 @@ cheatcodes:
       meta: ""
     - genre: "Baseball Movies"
       id: 12339
-      meta: ""
+      meta: "sports"
     - genre: "Basketball Movies"
       id: 12762
-      meta: ""
+      meta: "sports"
     - genre: "Belgian Movies"
       id: 262
       meta: ""
@@ -83,7 +83,7 @@ cheatcodes:
       meta: ""
     - genre: "Boxing Movies"
       id: 12443
-      meta: ""
+      meta: "sports"
     - genre: "British Movies"
       id: 10757
       meta: ""
@@ -95,7 +95,7 @@ cheatcodes:
       meta: ""
     - genre: "Children & Family Movies"
       id: 783
-      meta: ""
+      meta: "kids"
     - genre: "Chinese Movies"
       id: 3960
       meta: ""
@@ -122,13 +122,13 @@ cheatcodes:
       meta: ""
     - genre: "Classic Sci-Fi & Fantasy"
       id: 47147
-      meta: ""
+      meta: "sciences fictions"
     - genre: "Classic Thrillers"
       id: 46588
       meta: ""
     - genre: "Classic TV Shows"
       id: 46553
-      meta: ""
+      meta: "televisions"
     - genre: "Classic War Movies"
       id: 48744
       meta: ""
@@ -164,7 +164,7 @@ cheatcodes:
       meta: ""
     - genre: "Crime TV Shows"
       id: 26146
-      meta: ""
+      meta: "televisions"
     - genre: "Cult Comedies"
       id: 9434
       meta: "classics comedy humors funny"
@@ -176,10 +176,10 @@ cheatcodes:
       meta: ""
     - genre: "Cult Sci-Fi & Fantasy"
       id: 4734
-      meta: ""
+      meta: "sciences fictions"
     - genre: "Cult TV Shows"
       id: 74652
-      meta: ""
+      meta: "televisions"
     - genre: "Dark Comedies"
       id: 869
       meta: "noirs comedy humors funny"
@@ -212,7 +212,7 @@ cheatcodes:
       meta: ""
     - genre: "Education for Kids"
       id: 10659
-      meta: ""
+      meta: "childrens"
     - genre: "Epics"
       id: 52858
       meta: ""
@@ -221,10 +221,10 @@ cheatcodes:
       meta: ""
     - genre: "Faith & Spirituality"
       id: 26835
-      meta: ""
+      meta: "religions religious faiths"
     - genre: "Faith & Spirituality Movies"
       id: 52804
-      meta: ""
+      meta: "religions religious faiths"
     - genre: "Family Features"
       id: 51056
       meta: ""
@@ -236,10 +236,10 @@ cheatcodes:
       meta: ""
     - genre: "Food & Travel TV"
       id: 72436
-      meta: ""
+      meta: "televisions"
     - genre: "Football Movies"
       id: 12803
-      meta: ""
+      meta: "sports"
     - genre: "Foreign Action & Adventure"
       id: 11828
       meta: ""
@@ -263,7 +263,7 @@ cheatcodes:
       meta: ""
     - genre: "Foreign Sci-Fi & Fantasy"
       id: 6485
-      meta: ""
+      meta: "sciences fictions"
     - genre: "Foreign Thrillers"
       id: 10306
       meta: ""
@@ -323,19 +323,19 @@ cheatcodes:
       meta: ""
     - genre: "Kids Faith & Spirituality"
       id: 751423
-      meta: ""
+      meta: "childrens religions religious faiths"
     - genre: "Kids Music"
       id: 52843
-      meta: ""
-    - genre: "Kids’ TV"
+      meta: "childrens"
+    - genre: "Kids' TV"
       id: 27346
-      meta: ""
+      meta: "childrens televisions"
     - genre: "Korean Movies"
       id: 5685
       meta: ""
     - genre: "Korean TV Shows"
       id: 67879
-      meta: ""
+      meta: "televisions"
     - genre: "Late Night Comedies"
       id: 1402
       meta: "comedy humors funny"
@@ -347,10 +347,10 @@ cheatcodes:
       meta: ""
     - genre: "Martial Arts Movies"
       id: 8985
-      meta: ""
+      meta: "karate kung-fu"
     - genre: "Martial Arts, Boxing & Wrestling"
       id: 6695
-      meta: ""
+      meta: "karate kung-fu sports"
     - genre: "Middle Eastern Movies"
       id: 5875
       meta: ""
@@ -365,7 +365,7 @@ cheatcodes:
       meta: ""
     - genre: "Military TV Shows"
       id: 25804
-      meta: ""
+      meta: "war televisions"
     - genre: "Miniseries"
       id: 4814
       meta: ""
@@ -375,24 +375,24 @@ cheatcodes:
     - genre: "Monster Movies"
       id: 947
       meta: ""
-    - genre: "Movies based on children’s books"
+    - genre: "Movies based on children's books"
       id: 10056
-      meta: ""
+      meta: "kids"
     - genre: "Movies for ages 0 to 2"
       id: 6796
-      meta: ""
+      meta: "childrens kids baby babies toddlers"
     - genre: "Movies for ages 2 to 4"
       id: 6218
-      meta: ""
+      meta: "childrens kids toddlers"
     - genre: "Movies for ages 5 to 7"
       id: 5455
-      meta: ""
+      meta: "childrens kids"
     - genre: "Movies for ages 8 to 10"
       id: 561
-      meta: ""
+      meta: "childrens kids"
     - genre: "Movies for ages 11 to 12"
       id: 6962
-      meta: ""
+      meta: "childrens kids teens"
     - genre: "Music & Concert Documentaries"
       id: 90361
       meta: ""
@@ -431,7 +431,7 @@ cheatcodes:
       meta: ""
     - genre: "Reality TV"
       id: 9833
-      meta: ""
+      meta: "televisions"
     - genre: "Religious Documentaries"
       id: 10005
       meta: ""
@@ -470,25 +470,25 @@ cheatcodes:
       meta: ""
     - genre: "Sci-Fi & Fantasy"
       id: 1492
-      meta: ""
+      meta: "sciences fictions"
     - genre: "Sci-Fi Adventure"
       id: 6926
-      meta: ""
+      meta: "sciences fictions"
     - genre: "Sci-Fi Dramas"
       id: 3916
-      meta: ""
+      meta: "sciences fictions"
     - genre: "Sci-Fi Horror Movies"
       id: 1694
-      meta: ""
+      meta: "sciences fictions"
     - genre: "Sci-Fi Thrillers"
       id: 11014
-      meta: ""
+      meta: "sciences fictions"
     - genre: "Science & Nature Documentaries"
       id: 2595
       meta: ""
     - genre: "Science & Nature TV"
       id: 52780
-      meta: ""
+      meta: "televisions"
     - genre: "Screwball Comedies"
       id: 9702
       meta: "comedy humors funny"
@@ -578,7 +578,7 @@ cheatcodes:
       meta: ""
     - genre: "Teen TV Shows"
       id: 60951
-      meta: ""
+      meta: "televisions"
     - genre: "Thrillers"
       id: 8933
       meta: ""
@@ -587,10 +587,10 @@ cheatcodes:
       meta: ""
     - genre: "TV Action & Adventure"
       id: 10673
-      meta: ""
+      meta: "televisions"
     - genre: "TV Cartoons"
       id: 11177
-      meta: ""
+      meta: "televisions"
     - genre: "TV Comedies"
       id: 10375
       meta: "televisions sitcoms comedy humors funny"
@@ -599,19 +599,19 @@ cheatcodes:
       meta: ""
     - genre: "TV Dramas"
       id: 11714
-      meta: ""
+      meta: "televisions"
     - genre: "TV Horror"
       id: 83059
-      meta: ""
+      meta: "televisions"
     - genre: "TV Mysteries"
       id: 4366
-      meta: ""
+      meta: "televisions"
     - genre: "TV Sci-Fi & Fantasy"
       id: 1372
-      meta: ""
+      meta: "televisions sciences fictions"
     - genre: "TV Shows"
       id: 83
-      meta: ""
+      meta: "televisions"
     - genre: "Urban & Dance Concerts"
       id: 9472
       meta: ""
