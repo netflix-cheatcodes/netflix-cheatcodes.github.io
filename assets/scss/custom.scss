@@ -31,9 +31,8 @@ $sansSerifFont: 'Source Sans Pro', Helvetica, Arial, sans-serif;
 /*variables -- colors*/
 $coreBackgroundColor: #1A1A1A;
 $coreHyperlink: #e50914;
-$subtleGray: #eee;
-$light: #efefef;
-$activeCallout: #a29e5e;
+$activeSelection: #0080ff;
+$subtleGray: #f3f3f3;
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /* resets
@@ -117,12 +116,12 @@ a:visited { color: $coreHyperlink; }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
     color: #fff;
-    background-color: lighten( $coreHyperlink, 40% );
+    background-color: $activeSelection;
 }
 
-.navbar-default .navbar-nav>li:hover {
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
   background-color: $coreBackgroundColor;
-  color: darken( $coreHyperlink, 50% );
+  color: $activeSelection;
   -webkit-transition: 300ms linear 0s;
   -moz-transition: 300ms linear 0s;
   -o-transition: 300ms linear 0s;
@@ -136,10 +135,6 @@ a:visited { color: $coreHyperlink; }
 
 .navbar-default .navbar-toggle {
   border-color: darken( $coreBackgroundColor, 20% );
-}
-
-.navbar-default .navbar-nav>li>a:hover {
-  color: lighten( $coreBackgroundColor, 50% );
 }
 
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
@@ -168,10 +163,6 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 
-.page-header {
-  border-bottom: none;
-}
-
 .navbar {
   font-family: $sansSerifFont;
   margin-bottom: 0px;
@@ -179,7 +170,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar-default {
   background-color: darken( $coreBackgroundColor, 20% );
-  border-bottom: 1px solid darken( $coreBackgroundColor, 20% );
+  border-bottom: none;
   box-shadow: 0 6px 15px rgba(0,0,0,0.19),0 6px 6px rgba(0,0,0,0.23);
   -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
   -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
@@ -191,7 +182,7 @@ h1, h2, h3, h4, h5, h6 {
   padding-top: 48px;
   border-color: transparent;
   border-radius: 0px;
-  background-color: lighten( $coreBackgroundColor, 12% );
+  background-image: linear-gradient( darken( $coreBackgroundColor, 20% ), lighten( $coreBackgroundColor, 12% ) );
 }
 
 .dropdown-menu {
@@ -295,8 +286,8 @@ a.brand:hover {
 }
 
 .footer-wrapper {
-  padding-top: 24px;
-  padding-bottom: 36px;
+  padding-top: 3em;
+  padding-bottom: 3em;
 }
 
 .footer-copyright{
@@ -348,24 +339,24 @@ a.brand:hover {
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
 .card {
-  background-color: $coreHyperlink;
-  color: #fff;
-  margin-bottom: 1em;
-  border: 0px solid $coreHyperlink;
+  background-color: #fff;
+  color: $coreHyperlink;
+  margin-bottom: 0.8em;
+  border: none;
   opacity: 0.90;
 }
 
 .card .row {
-  padding: 4px 2px;
+  padding: 3px 2px;
 }
 
 .card .icon {
-  font-size: 2.5em;
+  font-size: 1.9em;
 }
 
-.card .icon-name {
-  font-size: 1.4em;
-  line-height: 2.5em;
+.card .icon-genre, .card .icon-id {
+  font-size: 1.2em;
+  line-height: 2.1em;
 }
 
 .card .icon-code {
@@ -376,18 +367,19 @@ a.brand:hover {
 }
 
 a.link-div {
-  border: 1px solid $coreHyperlink;
+  border: 1px solid #fff;
   display: block;
-  color: #fff;
+  color: $coreHyperlink;
 }
 
 a.link-div:hover {
+  background: $coreHyperlink;
   border: 1px solid $coreHyperlink;
   box-shadow: 0 3px 6px rgba(0,0,0,0.19),0 6px 6px rgba(0,0,0,0.23);
   -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
   -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
   transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
-  color: darken( $activeCallout, 10% );
+  color: #fff;
 }
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
@@ -452,7 +444,27 @@ a.link-div:hover {
 }
 
 .landing-page {
-  background-color: lighten( $coreBackgroundColor, 32% );
+  background-color: $subtleGray;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.19),0 6px 6px rgba(0,0,0,0.23);
+  -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+  -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.page-heading {
+  background-color: darken( $subtleGray, 6% );
+  padding-top: 3px;
+  padding-bottom: 4px;
+}
+
+.page-header {
+  border-bottom: none;
+}
+
+.about-page {
+  background-color: darken( $subtleGray, 6% );
   padding-top: 24px;
   padding-bottom: 24px;
   box-shadow: 0 6px 15px rgba(0,0,0,0.19),0 6px 6px rgba(0,0,0,0.23);
@@ -468,8 +480,4 @@ a.link-div:hover {
   -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
   -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
   transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
-}
-
-#page-heading {
-  /*background-color: lighten( $coreBackgroundColor, 18% );*/
 }
